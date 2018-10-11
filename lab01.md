@@ -1,3 +1,6 @@
+
+
+
 ---
 **人工智能与我们的未来**
 ---
@@ -19,7 +22,7 @@
 
 现在，你或许已经相信，人工智能早就已经渗透到我们生活的方方面面，并且为我们提供了极大的便利。
 
-![](https://github.com/GUOJIAYII/markdownphotos/raw/master/%E4%B8%8B%E8%BD%BD.png)
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/%E5%9B%BE%E7%89%87.png?raw=true)
 
 # [](#header-3)对人工智能理性认知
 >Suppose we give an A.I. the goal to make humans smile.
@@ -28,7 +31,7 @@
 >
 >When the A.I. becomes super intelligent,it realizes a more effective way to achieve this goal:take control of the world and stick electrodes into the facial muscles of hunmans.
 
-![](https://github.com/GUOJIAYII/markdownphotos/raw/master/22.jpg)
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/22.jpg?raw=true)
 
 
 在我们不知不觉地享受着人工智能所带来的方便与快捷时，越来越多的科学家站出来呼吁人们理性对待人工智能的发展，并且不一而同地用“蚂蚁与人类”做出了形象的比喻。我们对蚂蚁并没有什么刻骨深仇，甚至有时走在路上还会为了避免踩到它们而绕开，但一旦我们需要建造楼房，我们完全不会关心它们的下场。
