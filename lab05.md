@@ -6,7 +6,7 @@
 
 首先，我们尝试一下添加 and gate 的演示：
 
-（real and gate）
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/real%20and%20gate.gif?raw=true)
 
 很容易看出，当两个logic source均为1的时候，小灯泡才会亮，只要有一个logic source变成了0，小灯泡就会熄灭。虽然此时仍有很微弱的电流通过，但是无法让灯泡发光。
 
@@ -28,7 +28,7 @@ Everycircuit上的逻辑门很！全！哦！
 
 所以非常简单：
 
-（not gate）
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/notgate.gif?raw=true)
 
 很明显，当输入为0的时候小灯泡会发光，当输入为1的时候小灯泡是不亮的。
 
@@ -48,7 +48,7 @@ Everycircuit上的逻辑门很！全！哦！
 
 如下：
 
-（xor gate notgate）
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/xor%20gate%20notgate.gif?raw=true)
 
 很显然，当可变的 logic source 为0的时候小灯泡发光，为1的时候小灯泡熄灭。因此这样就将一个异或门转成了一个非门。
 
@@ -85,7 +85,7 @@ Everycircuit上的逻辑门很！全！哦！
 
 如图：
 
-（运算）
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/%E8%BF%90%E7%AE%97.png?raw=true)
 
 通过在模拟电路时改变三个 logic source 的输入，可以得到如下的真值表。
 
@@ -109,7 +109,7 @@ Everycircuit上的逻辑门很！全！哦！
 
 根据S-R latch的原理图，连接起S-R latch的电路图：
 
-（srlatch）
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/srlatch.gif?raw=true)
 
 （2）顺序按Set，Reset，并填写以下表格:
 
@@ -131,11 +131,11 @@ Everycircuit上的逻辑门很！全！哦！
 
 由全加器的电路图可以很容易的连接出如下的电路图：
 
-（full adder1） 
+ ![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/full%20adder1.png?raw=true)
 
 （2） 画出二位的全加电路:
 
 两位的全加电路原理与一位的电路相同，只需要将第一位输出的C<sub>next</sub>当作下一位中C<sub>in</sub>的输入即可。
 
-（full adder2）
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/full%20adder2.png?raw=true)
 
