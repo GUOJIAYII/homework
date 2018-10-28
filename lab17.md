@@ -18,7 +18,7 @@ $$\left(1+\frac23x\right)$$
 
 $$\left[\frac12\right]$$
 
-这是上标和下标：$a_1\quadx^2\quade^{-\alpha t}\quade^{x^2}\neq{e^x}^2$
+这是上标和下标：$a_1\quad x^2\quad e^{-\alpha t}\quad e^{x^2}\neq{e^x}^2$
 
 $$\sqrt{x^2+\sqrt(y)}$$
 
@@ -34,8 +34,8 @@ $$\surd[x^2+y^2]$$
 
 这是用来表示向量：
 
-\begin{displaymath}
-\vec a \quad\overrightarrow{AB}
-\end{displaymath}
+$$\begin{displaymath}$$
+$$\vec a \quad\overrightarrow{AB}$$
+$$\end{displaymath}$$
 
 $1\frac12$hours
