@@ -18,5 +18,24 @@ $$\left(1+\frac23x\right)$$
 
 $$\left[\frac12\right]$$
 
+这是上标和下标：$a_1\quadx^2\quade^{-\alpha t}\quade^{x^2}\neq{e^x}^2$
 
+$$\sqrt{x^2+\sqrt(y)}$$
 
+$$\sqrt[3]{2}$$
+
+$$\surd[x^2+y^2]$$
+
+这是上划线和下划线：$\overline{m+n}\quad\underline{m+n}$
+
+这是下划的大括号：$\underbrace{a+b+\cdots+z}_{100}$
+
+这是上划的大括号：$\overbrace{a+b+\cdots+z}_{99}$
+
+这是用来表示向量：
+
+\begin{displaymath}
+\vec a \quad\overrightarrow{AB}
+\end{displaymath}
+
+$1\frac12$hours
