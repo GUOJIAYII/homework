@@ -34,8 +34,12 @@ $$\surd[x^2+y^2]$$
 
 这是用来表示向量：
 
-$$\begin{displaymath}$$
+
 $$\vec a \quad\overrightarrow{AB}$$
-$$\end{displaymath}$$
+
 
 $1\frac12$hours
+
+这是求和运算：$\sum_{i=1}^{n}x_i=\underbrace{x_1+x_2+\x_3dots+x_n}_{n}$
+
+
