@@ -40,6 +40,6 @@ $$\vec a \quad\overrightarrow{AB}$$
 
 $1\frac12$hours
 
-这是求和运算：$\sum_{i=1}^{n}x_i=\underbrace{x_1+x_2+\x_3dots+x_n}_{n}$
+这是求和运算：$\sum_{i=1}^{n}x_i=\underbrace{x_1+x_2+\cdots+x_n}_{n}$
 
 
