@@ -13,7 +13,7 @@ Gameplay(玩法)：
 
 请你帮助Tim,通过方向键来控制Tim的移动和跳跃，跳到最高的平台上！尽可能多的收集金币，获得更高的分数，分数达到一定程度才可以升级哦。同时不要忘记躲避手枪从各个方向发射出的子弹！如果你不幸多次从平台上坠落，很遗憾，游戏就会结束。
 
-**（tim的游戏）**
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/tim's%20game.png?raw=true)
 
 Game Sprites（人设与道具）：
 
@@ -24,6 +24,8 @@ Game Sprites（人设与道具）：
 3.金币：金币会随机出现在游戏的各个位置，如果Tim成功收集到了这枚金币，就会多得一分哦。收集得越多，得分也就越高。
 
 4.台阶：一共有四层台阶，随着台阶之间的高度不断增加，想要成功跳跃到平台上的难度也是在不断增加，因此跳的阶数越高得分也会越高呢！但是，平台也是不断移动的，如果不小心坠落，除了生命值减少之外，得分可是会清零的哦！
+
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/%E8%8D%89%E5%9B%BE.png?raw=true)
 
 
 有了清晰的游戏策划之后，我们可以先通过CRC（Class-Responsibility-Collaboration）卡片方法来使自己的策划思路更清晰有条理。
@@ -46,40 +48,47 @@ Game Sprites（人设与道具）：
 	+--------------+------------------------+
 
 
-+----------------------------------------+  
-| Object Name:  bullet                   |  
-+----------------------------------------+
-| Attributes :sprite,Main Layer,-103,129 |
-+--------------+-------------------------+
-| Collaborator |     Events & Actions    |
-+--------------+-------------------------+
-|  Player Tim  | collision&&get destroyed|
-+--------------+-------------------------+
-|  turret      |      sprawn bullet      |
-+--------------+-------------------------+
+	+----------------------------------------+  
+	| Object Name:  bullet                   |  
+	+----------------------------------------+
+	| Attributes :sprite,Main Layer,-103,129 |
+	+--------------+-------------------------+
+	| Collaborator |     Events & Actions    |
+	+--------------+-------------------------+
+	|  Player Tim  | collision&&get destroyed|
+	+--------------+-------------------------+
+	|  turret      |      sprawn bullet      |
+	+--------------+-------------------------+
 
 
-+-----------------------------------+  
-| Object Name :   Flooring          |  
-+-----------------------------------+
-| Attributes :sprite,Main Layer     |
-+--------------+--------------------+
-| Collaborator | Events & Actions   |
-+--------------+--------------------+
-|   player     |on landed,get scores|
-+--------------+--------------------+
-|  Resulttext  |on landed,get scores|
-|              |                    |
-|              |floor=3,set text    |
-+--------------+--------------------+
+	+-----------------------------------+  
+	| Object Name :   Flooring          |  
+	+-----------------------------------+
+	| Attributes :sprite,Main Layer     |
+	+--------------+--------------------+
+	| Collaborator | Events & Actions   |
+	+--------------+--------------------+
+	|   player     |on landed,get scores|
+	+--------------+--------------------+
+	|  Resulttext  |on landed,get scores|
+	|              |                    |
+	|              |floor=3,set text    |
+	+--------------+--------------------+
 
 
-+------------------------------------------+  
-| Object Name :           Wall             |  
-+------------------------------------------+
-| Attributes :   sprite,Main Layer,solid   |
-+--------------+---------------------------+
-| Collaborator |     Events & Actions      |
-+--------------+---------------------------+
-| Player       |set animation to Standing  |
-+--------------+---------------------------+
+	+------------------------------------------+  
+	| Object Name :           Wall             |  
+	+------------------------------------------+
+	| Attributes :   sprite,Main Layer,solid   |
+	+--------------+---------------------------+
+	| Collaborator |     Events & Actions      |
+	+--------------+---------------------------+
+	| Player       |set animation to Standing  |
+	+--------------+---------------------------+
+
+
+有了清晰的思路之后，再依次为所涉及的游戏对象添加事件和行为就变得格外简单了！
+
+最后，让我们尝试玩一下这个游戏吧！
+
+![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/tim%20game.gif?raw=true)
