@@ -21,7 +21,9 @@ Program 1: Add 2 number
 观察并回答下面问题：
 
 &#8195;1.PC、IR寄存器的作用：
+
 ![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/machine%20code3.png?raw=true)
+
 在指令运行的过程中我们可以很清楚的看到，PC中存放着正在执行的指令的地址码，计算机根据PC中的地址去RAM中进行寻址，找到相应地址中的内容，然后把它输送到指令寄存器IR中。也就是说，PC中存放着指令的地址码，并且每次操作执行完城后会对地址码进行相应的加法（具体的数值取决于指令的长度），然后这样就可以依次执行计算机中的指令；而每一次要执行的指令都会先被放到IR寄存器中，以待进一步的decode然后执行。
 
 &#8195;2.ACC寄存器的全称和作用：
@@ -33,6 +35,7 @@ ACC(Accumulator)也就是累加器，这是一个具有特殊用途的二进制8
 也就是说，在CPU执行某种运算前，两个操作数中的一个通常应放在累加器A中，运算完成后累加器A中便可得到运算结果。 　
 
 ![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/machine%20code4.png?raw=true)
+
 ![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/machine%20code4.5.png?raw=true)
 
 &#8195;3.用“LOD #3”指令的执行过程，解释Fetch-Execute周期：
@@ -191,7 +194,7 @@ HLT
 
 ![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/machine%20code5.png?raw=true)
 
-最后的结果保存在Y中，是45！
+
 
 3.用自己的语言，简单总结高级语言与机器语言的区别与联系:
 
