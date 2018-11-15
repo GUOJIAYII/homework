@@ -44,4 +44,6 @@ $1\frac12$hours
 
 $$\lim_{x\to +\infty} {(1-\frac{1}{n})}^{n^2} $$  求极限？？
 
+$$\lim_{x\to 0} \frac{\sqrt[3]{1+3x}-\sqrt[3]{1-2x}}{x+x^2} $$
+
 
