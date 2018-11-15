@@ -42,6 +42,6 @@ $1\frac12$hours
 
 这是求和运算：$\sum_{i=1}^{n}x_i=\underbrace{x_1+x_2+\cdots+x_n}_{n}$
 
-$$\lim_{x\to +\infty} {1-\frac{1}{n}}^{n^2} $$  求极限？？
+$$\lim_{x\to +\infty} {(1-\frac{1}{n})}^{n^2} $$  求极限？？
 
 
