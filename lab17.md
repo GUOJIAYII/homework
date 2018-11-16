@@ -48,3 +48,5 @@ $$\lim_{x\to 0} \frac{\sqrt[3]{1+3x}-\sqrt[3]{1-2x}}{x+x^2} $$
 
 $$ y=\lim_{x\to 0} \frac{x}{2}\sqrt{x^2+a^2}+\frac{a^2}{2}arcsin\frac{x}{a} $$
 
+$$ \int_{0}^{1} \sqrt{2+x-x^2}dx  $$
+
