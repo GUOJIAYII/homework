@@ -54,4 +54,4 @@ $$ \begin{bmatrix} 1 & 2 \\ 4 & 7 \\ \end{bmatrix} $$ 这是一个矩阵
 
 $$ \begin{bmatrix} 1 & -2 & 1 \\ 4 & -7 & 3 \\ -2 & 6 & -4\\ \end{bmatrix} $$ 这是矩阵
 
-$$ \int_ {\frac{x^{14}}{{x^5+1}^4}}dx $$ 
+$$ \int_{}^{} {\frac{x^{14}}{{x^5+1}^4}}dx $$
