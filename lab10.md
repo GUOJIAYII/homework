@@ -38,9 +38,6 @@ $$ \int_{0}^{1} \sqrt{2+x-x^2}dx  $$
 
 ![](https://github.com/GUOJIAYII/swi-homework/blob/gh-pages/images/python%E6%B1%82%E5%AE%9A%E7%A7%AF%E5%88%86.png?raw=true)
 
-这是不定积分的计算：
-
-
 
 # 线性代数 #
 
