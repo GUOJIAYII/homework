@@ -50,4 +50,4 @@ $$ y=\lim_{x\to 0} \frac{x}{2}\sqrt{x^2+a^2}+\frac{a^2}{2}arcsin\frac{x}{a} $$
 
 $$ \int_{0}^{1} \sqrt{2+x-x^2}dx  $$
 
-$$ \begin{matrix} 1 & 2 \\ 4 & 7 \\ \end{matrix} $$ 这是一个矩阵
+$$ \begin{bmatrix} 1 & 2 \\ 4 & 7 \\ \end{bmatrix} $$ 这是一个矩阵
