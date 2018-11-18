@@ -130,6 +130,8 @@ return 0;
 
 1.写出 c 语言的计算过程
 
+```C
+
 int main()
 
 {
@@ -150,15 +152,11 @@ return 0;
 
 }
 
+```
+
 2.写出机器语言的计算过程:
 
-想用机器语言完成循环过程的计算，只知道LOD、ADD、SUB、STO当然是不够的啦，下面这个网站介绍了CSC103的一些基本指令哦~
-
-[http://www.science.smith.edu/dftwiki/index.php/CSC103_Basic_Instructions](http://www.science.smith.edu/dftwiki/index.php/CSC103_Basic_Instructions)
-
-也就是说，在机器语言中，想要实现循环中的条件判断不再像C语言中一个语句就可以了，而是要通过JMZ、JMP等复杂的过程才能实现。
-
-所以机器语言的编程如下：
+机器语言的编程如下：
 
 LOD #0
 
