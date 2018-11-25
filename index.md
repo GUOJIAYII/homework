@@ -31,6 +31,7 @@
 16. [16-互联网时代的盈利模式](lab16)
 17. [电路学习改良版](refined circuit hw)
 18. [latex](lab17)
+19. [互联网时代的隐私安全](lab18)
 
 
 ## Markdown 语法演示
