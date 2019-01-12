@@ -35,6 +35,8 @@
 19. [latex](lab17)
 20. [互联网时代的隐私安全](lab18)
 
+[latex语法](latex)
+
 
 ## Markdown 语法演示
 
